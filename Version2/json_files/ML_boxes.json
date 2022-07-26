@@ -1,0 +1,151 @@
+{
+	"styles": [
+		{
+			"name": "defaults",
+			"mainClass": [
+				"w3-white",
+				"w3-center",
+				"w3-padding-small"
+			],
+			"txtClass": [
+				"w3-brown"
+			],
+			"boxClass": [
+				"w3-indigo"
+			],
+			"labelClass": [
+				"w3-white"
+			],
+			"btnClass": [
+				"w3-button",
+				"w3-block",
+				"w3-border",
+				"w3-border-gray",
+				"w3-round-xlarge",
+				"w3-display-middle"
+			],
+			"btnTxt": [
+				"w3-white"
+			],
+			"btnSel": [
+				"w3-blue",
+				"w3-hover-blue"
+			],
+			"btnNotSel": [
+				"w3-light-blue"
+			]
+		},
+		{
+			"name": "open",
+			"mainClass": "default",
+			"txtClass": "default",
+			"boxClass": "default",
+			"boxType": "open"
+		},
+		{
+			"name": "closed",
+			"mainClass": "default",
+			"txtClass": "default",
+			"boxClass": "default",
+			"boxType": "closed"
+		},
+		{
+			"name": "label",
+			"width": "10%",
+			"labelClass": "default",
+			"height": "50px"
+		},
+		{
+			"name": "button",
+			"btnClass": "default",
+			"btnTxt": "default",
+			"btnSel": "default",
+			"btnNotSel": "default",
+			"height": "30px",
+			"width": "10%"
+		}
+	],
+	"opt": [
+		{
+			"name": "a0",
+			"label": "col1",
+			"width": "33%"
+		},
+		{
+			"name": "a1",
+			"label": "col2",
+			"width": "33%"
+		},
+		{
+			"name": "a2",
+			"label": "col3",
+			"width": "33%"
+		}
+	],
+	"attr": [
+		{
+			"name": "a0",
+			"label": "attr1",
+			"height": "60px"
+		}
+	],
+	"cell": [
+		{
+			"a0": {
+				"var": "a0",
+				"txt": "Professor Marx<BR>Spanish",
+				"box": "Box 1",
+				"style": "closed"
+			},
+			"a1": {
+				"var": "a1",
+				"txt": "Professor Jones<BR>Marketing",
+				"box": "Box 2",
+				"style": "closed"
+			},
+			"a2": {
+				"var": "a2",
+				"txt": "Professor Smith<BR>Philosophy",
+				"box": "Box 3",
+				"style": "closed"
+			}
+		}
+	],
+	"delay": {
+		"var": [
+			"box1"
+		],
+		"delays": [
+			[
+				0
+			]
+		]
+	},
+	"optOrders": [
+		{
+			"name": "order0",
+			"opt": [
+				"a0",
+				"a1",
+				"a2"
+			],
+			"attr": [
+				"a0"
+			]
+		}
+	],
+	"sets": [
+		{
+			"name": "dynSet",
+			"optOrder": [
+				"order0"
+			],
+			"layout": "optionCol",
+			"buttons": "off",
+			"displayLabels": "none",
+			"addedVars": [
+				"test=2"
+			]
+		}
+	]
+}

@@ -1,0 +1,2375 @@
+{
+	"styles": [
+		{
+			"name": "defaults",
+			"mainClass": [
+				"w3-white",
+				"w3-center",
+				"w3-padding-small"
+			],
+			"txtClass": [
+				"w3-light-blue"
+			],
+			"boxClass": [
+				"w3-indigo"
+			],
+			"labelClass": [
+				"w3-white"
+			],
+			"btnClass": [
+				"w3-button",
+				"w3-block",
+				"w3-border",
+				"w3-border-gray",
+				"w3-round-xlarge",
+				"w3-left",
+				"w3-small" 
+			],
+			"btnTxt": [
+				"w3-white"
+			],
+			"btnSel": [
+				"w3-blue",
+				"w3-hover-blue"
+			],
+			"btnNotSel": [
+				"w3-light-blue"
+			]
+		},
+		{
+			"name": "open",
+			"mainClass": "default",
+			"txtClass": "default",
+			"boxClass": "default",
+			"boxType": "open"
+		},
+		{
+			"name": "closed",
+			"mainClass": "default",
+			"txtClass": "default",
+			"boxClass": "default",
+			"boxType": "closed"
+		},
+		{
+			"name": "label",
+			"width": "10%",
+			"labelClass": "default",
+			"height": "50px"
+		},
+		{
+			"name": "button",
+			"btnClass": "default",
+			"btnTxt": "default",
+			"btnSel": "default",
+			"btnNotSel": "default",
+			"height": "30px",
+			"width": "10%"
+		}
+	],
+	"opt": [
+		{
+			"name": "pro_1",
+			"label": "col1",
+			"width": "33%"
+		},
+		{
+			"name": "con_1",
+			"label": "col2",
+			"width": "33%"
+		},
+		{
+			"name": "pro_2",
+			"label": "col3",
+			"width": "33%"
+		}
+	],
+	"attr": [
+		{
+			"name": "pro_1",
+			"label": "attr1",
+			"height": "9em"
+		},
+		{
+			"name": "con_2",
+			"label": "attr2",
+			"height": "9em"
+		},
+		{
+			"name": "pro_4",
+			"label": "attr3",
+			"height": "9em"
+		},
+		{
+			"name": "con_5",
+			"label": "attr4",
+			"height": "9em"
+		}
+	],
+	"cell": [
+		{
+			"pro_1": {
+				"var": "pro_1",
+				"txt": "<span style = 'font-size:85%'>Mr. Miller could compete with the strong local competition. Even price discounts and temporarily high inventories did not have any serious consequences. Mr.Miller seems to be able to defend the department store's market share.</span>",
+				"box": "Expert Statement in favor",
+				"style": "closed"
+			},
+			"con_1": {
+				"var": "con_1",
+				"txt": "<span style = 'font-size:85%'>Due to Mr. Miller’s decisions the department store lost many long-term customers. It is likely that even more customers will start buying elsewhere. Since long-term customers are important for sales numbers, this is a bad development.</span>",
+				"box": "Expert Statement against",
+				"style": "closed"
+			},
+			"pro_2": {
+				"var": "pro_2",
+				"txt": "<span style = 'font-size:85%'>Mr. Miller has a good understanding of the industry and keeps up to date with the latest trends (like “young fashion”). With his new ideas and creative innovations, Mr. Miller’s changes of the department store will lead to a new branch of customers.</span>",
+				"box": "Expert Statement in favor",
+				"style": "closed"
+			}
+		},
+		{
+			"pro_1": {
+				"var": "con_2",
+				"txt": "<span style = 'font-size:85%'>In view of the unchanged business situation, Mr. Miller was unable to live up to the high expectations. In a dynamic economy, maintaining the status quo means stagnation. This will have a negative impact on the business.</span>",
+				"box": "Expert Statement against",
+				"style": "closed"
+			},
+			"con_1": {
+				"var": "pro_3",
+				"txt": "<span style = 'font-size:85%'>By ensuring a continuous course of business, Mr. Miller has fully lived up to the expectations. Continuity is becoming more and more important in the face of increasing market turbulence and will pay off in the future.</span>",
+				"box": "Expert Statement in favor",
+				"style": "closed"
+			},
+			"pro_2": {
+				"var": "con_3",
+				"txt": "<span style = 'font-size:85%'>Changes in young people's fashion are nothing new on the market. This sales strategy already exists in similar department stores. Mr. Miller only copies business ideas of his competitors, so the success of this strategy is questionable.</span>",
+				"box": "Expert Statement against",
+				"style": "closed"
+			}
+		},
+		{
+			"pro_1": {
+				"var": "pro_4",
+				"txt": "<span style = 'font-size:85%'>Due to Mr. Miller's modernization of the department store’s interior, more young people started buying at the store. These newly acquired customers will be very important for the company’s future.</span>",
+				"box": "Expert Statement in favor",
+				"style": "closed"
+			},
+			"con_1": {
+				"var": "con_4",
+				"txt": "<span style = 'font-size:85%'>Balancing out employees' interests is important for the continuous safeguarding of the business. If you come into conflict with  long-standing employees as quickly as Mr. Miller has, you will fail to manage a department store in the long run.</span>",
+				"box": "Expert Statement against",
+				"style": "closed"
+			},
+			"pro_2": {
+				"var": "pro_5",
+				"txt": "<span style = 'font-size:85%'> New customers were won through creative advertising campaigns. Mr. Miller can obviously attract new customer groups. Fostering engagement and loyalty of new customer groups will pay off in the future and is an important development.</span>",
+				"box": "Expert Statement in favor",
+				"style": "closed"
+			}
+		},
+		{
+			"pro_1": {
+				"var": "con_5",
+				"txt": "<span style = 'font-size:85%'>Mr. Miller’s purchasing policy led to  high inventories, which could only be reduced by giving large price discounts to customers. This damaged the store's reputation and will have long-term negative effects on the business.</span>",
+				"box": "Expert Statement against",
+				"style": "closed"
+			},
+			"con_1": {
+				"var": "pro_6",
+				"txt": "<span style = 'font-size:85%'>Mr. Miller’s personnel decisions to increasingly focus on younger employees and to inspire them with enthusiasm for the company are very future-oriented. “New blood” will ensure new ideas and creativity in the business process.</span>",
+				"box": "Expert Statement in favor",
+				"style": "closed"
+			},
+			"pro_2": {
+				"var": "con_6",
+				"txt": "<span style = 'font-size:85%'>Due to the restructuring measures and modernizations initiated by Mr. Miller, the department store has become more confusing. These measures will lead to a reduction in the number of customers.</span>",
+				"box": "Expert Statement against",
+				"style": "closed"
+			}
+		}
+	],
+	"delay": {
+		"var": [
+			"box1"
+		],
+		"delays": [
+			[
+				0
+			]
+		]
+	},
+	"optOrders": [
+		{
+			"name": "order0",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_1",
+				"con_2",
+				"pro_4",
+				"con_5"
+			]
+		},
+		{
+			"name": "order1",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"pro_1",
+				"con_2",
+				"pro_4",
+				"con_5"
+			]
+		},
+		{
+			"name": "order2",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_1",
+				"con_2",
+				"pro_4",
+				"con_5"
+			]
+		},
+		{
+			"name": "order3",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"pro_1",
+				"con_2",
+				"pro_4",
+				"con_5"
+			]
+		},
+		{
+			"name": "order4",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"pro_1",
+				"con_2",
+				"pro_4",
+				"con_5"
+			]
+		},
+		{
+			"name": "order5",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"pro_1",
+				"con_2",
+				"pro_4",
+				"con_5"
+			]
+		},
+		{
+			"name": "order6",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_1",
+				"con_2",
+				"con_5",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order7",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"pro_1",
+				"con_2",
+				"con_5",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order8",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_1",
+				"con_2",
+				"con_5",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order9",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"pro_1",
+				"con_2",
+				"con_5",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order10",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"pro_1",
+				"con_2",
+				"con_5",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order11",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"pro_1",
+				"con_2",
+				"con_5",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order12",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_1",
+				"pro_4",
+				"con_2",
+				"con_5"
+			]
+		},
+		{
+			"name": "order13",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"pro_1",
+				"pro_4",
+				"con_2",
+				"con_5"
+			]
+		},
+		{
+			"name": "order14",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_1",
+				"pro_4",
+				"con_2",
+				"con_5"
+			]
+		},
+		{
+			"name": "order15",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"pro_1",
+				"pro_4",
+				"con_2",
+				"con_5"
+			]
+		},
+		{
+			"name": "order16",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"pro_1",
+				"pro_4",
+				"con_2",
+				"con_5"
+			]
+		},
+		{
+			"name": "order17",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"pro_1",
+				"pro_4",
+				"con_2",
+				"con_5"
+			]
+		},
+		{
+			"name": "order18",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_1",
+				"con_5",
+				"con_2",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order19",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"pro_1",
+				"con_5",
+				"con_2",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order20",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_1",
+				"con_5",
+				"con_2",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order21",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"pro_1",
+				"con_5",
+				"con_2",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order22",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"pro_1",
+				"con_5",
+				"con_2",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order23",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"pro_1",
+				"con_5",
+				"con_2",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order24",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_1",
+				"pro_4",
+				"con_5",
+				"con_2"
+			]
+		},
+		{
+			"name": "order25",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"pro_1",
+				"pro_4",
+				"con_5",
+				"con_2"
+			]
+		},
+		{
+			"name": "order26",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_1",
+				"pro_4",
+				"con_5",
+				"con_2"
+			]
+		},
+		{
+			"name": "order27",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"pro_1",
+				"pro_4",
+				"con_5",
+				"con_2"
+			]
+		},
+		{
+			"name": "order28",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"pro_1",
+				"pro_4",
+				"con_5",
+				"con_2"
+			]
+		},
+		{
+			"name": "order29",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"pro_1",
+				"pro_4",
+				"con_5",
+				"con_2"
+			]
+		},
+		{
+			"name": "order30",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_1",
+				"con_5",
+				"pro_4",
+				"con_2"
+			]
+		},
+		{
+			"name": "order31",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"pro_1",
+				"con_5",
+				"pro_4",
+				"con_2"
+			]
+		},
+		{
+			"name": "order32",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_1",
+				"con_5",
+				"pro_4",
+				"con_2"
+			]
+		},
+		{
+			"name": "order33",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"pro_1",
+				"con_5",
+				"pro_4",
+				"con_2"
+			]
+		},
+		{
+			"name": "order34",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"pro_1",
+				"con_5",
+				"pro_4",
+				"con_2"
+			]
+		},
+		{
+			"name": "order35",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"pro_1",
+				"con_5",
+				"pro_4",
+				"con_2"
+			]
+		},
+		{
+			"name": "order36",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_2",
+				"pro_1",
+				"pro_4",
+				"con_5"
+			]
+		},
+		{
+			"name": "order37",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"con_2",
+				"pro_1",
+				"pro_4",
+				"con_5"
+			]
+		},
+		{
+			"name": "order38",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_2",
+				"pro_1",
+				"pro_4",
+				"con_5"
+			]
+		},
+		{
+			"name": "order39",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"con_2",
+				"pro_1",
+				"pro_4",
+				"con_5"
+			]
+		},
+		{
+			"name": "order40",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"con_2",
+				"pro_1",
+				"pro_4",
+				"con_5"
+			]
+		},
+		{
+			"name": "order41",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"con_2",
+				"pro_1",
+				"pro_4",
+				"con_5"
+			]
+		},
+		{
+			"name": "order42",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_2",
+				"pro_1",
+				"con_5",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order43",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"con_2",
+				"pro_1",
+				"con_5",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order44",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_2",
+				"pro_1",
+				"con_5",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order45",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"con_2",
+				"pro_1",
+				"con_5",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order46",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"con_2",
+				"pro_1",
+				"con_5",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order47",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"con_2",
+				"pro_1",
+				"con_5",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order48",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_4",
+				"pro_1",
+				"con_2",
+				"con_5"
+			]
+		},
+		{
+			"name": "order49",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"pro_4",
+				"pro_1",
+				"con_2",
+				"con_5"
+			]
+		},
+		{
+			"name": "order50",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_4",
+				"pro_1",
+				"con_2",
+				"con_5"
+			]
+		},
+		{
+			"name": "order51",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"pro_4",
+				"pro_1",
+				"con_2",
+				"con_5"
+			]
+		},
+		{
+			"name": "order52",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"pro_4",
+				"pro_1",
+				"con_2",
+				"con_5"
+			]
+		},
+		{
+			"name": "order53",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"pro_4",
+				"pro_1",
+				"con_2",
+				"con_5"
+			]
+		},
+		{
+			"name": "order54",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_5",
+				"pro_1",
+				"con_2",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order55",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"con_5",
+				"pro_1",
+				"con_2",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order56",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_5",
+				"pro_1",
+				"con_2",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order57",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"con_5",
+				"pro_1",
+				"con_2",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order58",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"con_5",
+				"pro_1",
+				"con_2",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order59",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"con_5",
+				"pro_1",
+				"con_2",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order60",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_4",
+				"pro_1",
+				"con_5",
+				"con_2"
+			]
+		},
+		{
+			"name": "order61",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"pro_4",
+				"pro_1",
+				"con_5",
+				"con_2"
+			]
+		},
+		{
+			"name": "order62",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_4",
+				"pro_1",
+				"con_5",
+				"con_2"
+			]
+		},
+		{
+			"name": "order63",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"pro_4",
+				"pro_1",
+				"con_5",
+				"con_2"
+			]
+		},
+		{
+			"name": "order64",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"pro_4",
+				"pro_1",
+				"con_5",
+				"con_2"
+			]
+		},
+		{
+			"name": "order65",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"pro_4",
+				"pro_1",
+				"con_5",
+				"con_2"
+			]
+		},
+		{
+			"name": "order66",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_5",
+				"pro_1",
+				"pro_4",
+				"con_2"
+			]
+		},
+		{
+			"name": "order67",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"con_5",
+				"pro_1",
+				"pro_4",
+				"con_2"
+			]
+		},
+		{
+			"name": "order68",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_5",
+				"pro_1",
+				"pro_4",
+				"con_2"
+			]
+		},
+		{
+			"name": "order69",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"con_5",
+				"pro_1",
+				"pro_4",
+				"con_2"
+			]
+		},
+		{
+			"name": "order70",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"con_5",
+				"pro_1",
+				"pro_4",
+				"con_2"
+			]
+		},
+		{
+			"name": "order71",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"con_5",
+				"pro_1",
+				"pro_4",
+				"con_2"
+			]
+		},
+		{
+			"name": "order72",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_2",
+				"pro_4",
+				"pro_1",
+				"con_5"
+			]
+		},
+		{
+			"name": "order73",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"con_2",
+				"pro_4",
+				"pro_1",
+				"con_5"
+			]
+		},
+		{
+			"name": "order74",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_2",
+				"pro_4",
+				"pro_1",
+				"con_5"
+			]
+		},
+		{
+			"name": "order75",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"con_2",
+				"pro_4",
+				"pro_1",
+				"con_5"
+			]
+		},
+		{
+			"name": "order76",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"con_2",
+				"pro_4",
+				"pro_1",
+				"con_5"
+			]
+		},
+		{
+			"name": "order77",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"con_2",
+				"pro_4",
+				"pro_1",
+				"con_5"
+			]
+		},
+		{
+			"name": "order78",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_2",
+				"con_5",
+				"pro_1",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order79",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"con_2",
+				"con_5",
+				"pro_1",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order80",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_2",
+				"con_5",
+				"pro_1",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order81",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"con_2",
+				"con_5",
+				"pro_1",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order82",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"con_2",
+				"con_5",
+				"pro_1",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order83",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"con_2",
+				"con_5",
+				"pro_1",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order84",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_4",
+				"con_2",
+				"pro_1",
+				"con_5"
+			]
+		},
+		{
+			"name": "order85",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"pro_4",
+				"con_2",
+				"pro_1",
+				"con_5"
+			]
+		},
+		{
+			"name": "order86",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_4",
+				"con_2",
+				"pro_1",
+				"con_5"
+			]
+		},
+		{
+			"name": "order87",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"pro_4",
+				"con_2",
+				"pro_1",
+				"con_5"
+			]
+		},
+		{
+			"name": "order88",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"pro_4",
+				"con_2",
+				"pro_1",
+				"con_5"
+			]
+		},
+		{
+			"name": "order89",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"pro_4",
+				"con_2",
+				"pro_1",
+				"con_5"
+			]
+		},
+		{
+			"name": "order90",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_5",
+				"con_2",
+				"pro_1",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order91",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"con_5",
+				"con_2",
+				"pro_1",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order92",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_5",
+				"con_2",
+				"pro_1",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order93",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"con_5",
+				"con_2",
+				"pro_1",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order94",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"con_5",
+				"con_2",
+				"pro_1",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order95",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"con_5",
+				"con_2",
+				"pro_1",
+				"pro_4"
+			]
+		},
+		{
+			"name": "order96",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_4",
+				"con_5",
+				"pro_1",
+				"con_2"
+			]
+		},
+		{
+			"name": "order97",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"pro_4",
+				"con_5",
+				"pro_1",
+				"con_2"
+			]
+		},
+		{
+			"name": "order98",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_4",
+				"con_5",
+				"pro_1",
+				"con_2"
+			]
+		},
+		{
+			"name": "order99",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"pro_4",
+				"con_5",
+				"pro_1",
+				"con_2"
+			]
+		},
+		{
+			"name": "order100",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"pro_4",
+				"con_5",
+				"pro_1",
+				"con_2"
+			]
+		},
+		{
+			"name": "order101",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"pro_4",
+				"con_5",
+				"pro_1",
+				"con_2"
+			]
+		},
+		{
+			"name": "order102",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_5",
+				"pro_4",
+				"pro_1",
+				"con_2"
+			]
+		},
+		{
+			"name": "order103",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"con_5",
+				"pro_4",
+				"pro_1",
+				"con_2"
+			]
+		},
+		{
+			"name": "order104",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_5",
+				"pro_4",
+				"pro_1",
+				"con_2"
+			]
+		},
+		{
+			"name": "order105",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"con_5",
+				"pro_4",
+				"pro_1",
+				"con_2"
+			]
+		},
+		{
+			"name": "order106",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"con_5",
+				"pro_4",
+				"pro_1",
+				"con_2"
+			]
+		},
+		{
+			"name": "order107",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"con_5",
+				"pro_4",
+				"pro_1",
+				"con_2"
+			]
+		},
+		{
+			"name": "order108",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_2",
+				"pro_4",
+				"con_5",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order109",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"con_2",
+				"pro_4",
+				"con_5",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order110",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_2",
+				"pro_4",
+				"con_5",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order111",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"con_2",
+				"pro_4",
+				"con_5",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order112",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"con_2",
+				"pro_4",
+				"con_5",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order113",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"con_2",
+				"pro_4",
+				"con_5",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order114",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_2",
+				"con_5",
+				"pro_4",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order115",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"con_2",
+				"con_5",
+				"pro_4",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order116",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_2",
+				"con_5",
+				"pro_4",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order117",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"con_2",
+				"con_5",
+				"pro_4",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order118",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"con_2",
+				"con_5",
+				"pro_4",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order119",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"con_2",
+				"con_5",
+				"pro_4",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order120",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_4",
+				"con_2",
+				"con_5",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order121",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"pro_4",
+				"con_2",
+				"con_5",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order122",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_4",
+				"con_2",
+				"con_5",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order123",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"pro_4",
+				"con_2",
+				"con_5",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order124",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"pro_4",
+				"con_2",
+				"con_5",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order125",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"pro_4",
+				"con_2",
+				"con_5",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order126",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_5",
+				"con_2",
+				"pro_4",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order127",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"con_5",
+				"con_2",
+				"pro_4",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order128",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_5",
+				"con_2",
+				"pro_4",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order129",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"con_5",
+				"con_2",
+				"pro_4",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order130",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"con_5",
+				"con_2",
+				"pro_4",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order131",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"con_5",
+				"con_2",
+				"pro_4",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order132",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_4",
+				"con_5",
+				"con_2",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order133",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"pro_4",
+				"con_5",
+				"con_2",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order134",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"pro_4",
+				"con_5",
+				"con_2",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order135",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"pro_4",
+				"con_5",
+				"con_2",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order136",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"pro_4",
+				"con_5",
+				"con_2",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order137",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"pro_4",
+				"con_5",
+				"con_2",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order138",
+			"opt": [
+				"pro_1",
+				"con_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_5",
+				"pro_4",
+				"con_2",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order139",
+			"opt": [
+				"pro_1",
+				"pro_2",
+				"con_1"
+			],
+			"attr": [
+				"con_5",
+				"pro_4",
+				"con_2",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order140",
+			"opt": [
+				"con_1",
+				"pro_1",
+				"pro_2"
+			],
+			"attr": [
+				"con_5",
+				"pro_4",
+				"con_2",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order141",
+			"opt": [
+				"pro_2",
+				"pro_1",
+				"con_1"
+			],
+			"attr": [
+				"con_5",
+				"pro_4",
+				"con_2",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order142",
+			"opt": [
+				"con_1",
+				"pro_2",
+				"pro_1"
+			],
+			"attr": [
+				"con_5",
+				"pro_4",
+				"con_2",
+				"pro_1"
+			]
+		},
+		{
+			"name": "order143",
+			"opt": [
+				"pro_2",
+				"con_1",
+				"pro_1"
+			],
+			"attr": [
+				"con_5",
+				"pro_4",
+				"con_2",
+				"pro_1"
+			]
+		}
+	],
+	"sets": [
+		{
+			"name": "dynSet",
+			"optOrder": [
+				"order0",
+				"order1",
+				"order2",
+				"order3",
+				"order4",
+				"order5",
+				"order6",
+				"order7",
+				"order8",
+				"order9",
+				"order10",
+				"order11",
+				"order12",
+				"order13",
+				"order14",
+				"order15",
+				"order16",
+				"order17",
+				"order18",
+				"order19",
+				"order20",
+				"order21",
+				"order22",
+				"order23",
+				"order24",
+				"order25",
+				"order26",
+				"order27",
+				"order28",
+				"order29",
+				"order30",
+				"order31",
+				"order32",
+				"order33",
+				"order34",
+				"order35",
+				"order36",
+				"order37",
+				"order38",
+				"order39",
+				"order40",
+				"order41",
+				"order42",
+				"order43",
+				"order44",
+				"order45",
+				"order46",
+				"order47",
+				"order48",
+				"order49",
+				"order50",
+				"order51",
+				"order52",
+				"order53",
+				"order54",
+				"order55",
+				"order56",
+				"order57",
+				"order58",
+				"order59",
+				"order60",
+				"order61",
+				"order62",
+				"order63",
+				"order64",
+				"order65",
+				"order66",
+				"order67",
+				"order68",
+				"order69",
+				"order70",
+				"order71",
+				"order72",
+				"order73",
+				"order74",
+				"order75",
+				"order76",
+				"order77",
+				"order78",
+				"order79",
+				"order80",
+				"order81",
+				"order82",
+				"order83",
+				"order84",
+				"order85",
+				"order86",
+				"order87",
+				"order88",
+				"order89",
+				"order90",
+				"order91",
+				"order92",
+				"order93",
+				"order94",
+				"order95",
+				"order96",
+				"order97",
+				"order98",
+				"order99",
+				"order100",
+				"order101",
+				"order102",
+				"order103",
+				"order104",
+				"order105",
+				"order106",
+				"order107",
+				"order108",
+				"order109",
+				"order110",
+				"order111",
+				"order112",
+				"order113",
+				"order114",
+				"order115",
+				"order116",
+				"order117",
+				"order118",
+				"order119",
+				"order120",
+				"order121",
+				"order122",
+				"order123",
+				"order124",
+				"order125",
+				"order126",
+				"order127",
+				"order128",
+				"order129",
+				"order130",
+				"order131",
+				"order132",
+				"order133",
+				"order134",
+				"order135",
+				"order136",
+				"order137",
+				"order138",
+				"order139",
+				"order140",
+				"order141",
+				"order142",
+				"order143"
+			],
+			"layout": "optionCol",
+			"buttons": "off",
+			"displayLabels": "none",
+			"addedVars": [
+				"test=2"
+			]
+		}
+	]
+}
